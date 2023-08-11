@@ -1,0 +1,12 @@
+{
+  "name": "tgap-2023-2",
+  "version": "1.0.0",
+  "description": "Repositório da disciplina Teoria dos Grafos de Aplicações, 8º semestre de Ciência da Computação Uni-FACEF 2023/2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
