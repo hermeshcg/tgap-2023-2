@@ -20,12 +20,12 @@ g.addEdge('D', 'E')
 console.log(g)
 
 // Removendo o vértice F
-g.removeVertix('F')
+g.removeVertex('F')
 console.log('~> Vértice F removido')
 console.log(g)
 
 // TENTATIVA de remoção do vértice B
-// g.removeVertix('B')
+// g.removeVertex('B')
 
 /*****************************************************/
 
@@ -41,4 +41,24 @@ console.log('--------------------------------------------------')
 console.log(dg)
 
 // TENTATIVA de excluir o vértice V3
-dg.removeVertix('V3')
+// dg.removeVertex('V3')
+
+// Exemplo de exclusão de aresta em grafo direcionado
+console.log('--- GRAFO DIRECIONADO ANTES DA EXCLUSÃO DE ARESTA ---')
+console.log(dg)
+
+// Exclusão do vértice V2-V4
+dg.removeEdge('V2', 'V4')
+
+console.log('--- GRAFO DIRECIONADO DEPOIS DA EXCLUSÃO DE ARESTA ---')
+console.log(dg)
+
+// Exemplo de exclusão de aresta em grafo não direcionado
+console.log('--- GRAFO NÃO DIRECIONADO ANTES DA EXCLUSÃO DE ARESTA ---')
+console.log(g)
+
+// Exclusão do vértice B-C
+g.removeEdge('B', 'C')
+
+console.log('--- GRAFO NÃO DIRECIONADO DEPOIS DA EXCLUSÃO DE ARESTA ---')
+console.log(g)
