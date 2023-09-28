@@ -20,4 +20,4 @@ wg.addEdge('D', 'E', 2)
 wg.addEdge('D', 'A', 3)
 wg.addEdge('E', 'D', 1)
 
-wg.shortestDistance('A')
+console.log(wg.shortestDistance('A'))
